@@ -8,12 +8,13 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
+  background: #0f172a;
   color: #DADADB;
-  max-width: 900px;
+  max-width: auto;
   margin: 0 auto;
-  padding: 0 2rem; /* Ajuste el valor de relleno según sus necesidades */
+  padding: 0 2rem; /* Ajusta el valor de relleno según tus necesidades */
 }
+
 
 a {
   text-decoration: none;
@@ -27,10 +28,13 @@ li {
 /* Navbar */
 .nav-container {
   display: flex;
+  position: fixed;
+  padding: 100px;
+  backdrop-filter: blur(6px);
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
+
 }
 
 .nav-container .logo {
@@ -59,7 +63,7 @@ hr {
   border: none;
   background-color: #9B9C9D;
   height: 1px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -74,12 +78,12 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+
 }
 
 .footer-container p {
   font-size: 0.8rem;
-  color: #9B9C9D;
+  color: #ffffff;
 }
 
 .footer-container .social_icons {
@@ -192,8 +196,8 @@ hr {
 
 .about-container .flex-about .about-img .profile-img {
   overflow: hidden;
-  width: 100%;
-  height: 500px;
+  width: auto;
+  height: auto;
   object-fit: cover;
   border: 2px solid #DADADB;
   filter: grayscale(100%);
@@ -283,6 +287,15 @@ hr {
 
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
+}
+
+.skills-container .grid-skills .sass:hover {
+  background-color: #bf4080;
+}
+
+.skills-container .grid-skills .php:hover {
+  background-color: #7a86b8
+  ;
 }
 
 /* Projects */
