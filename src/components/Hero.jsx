@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="hero-container">
             
-            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Victor's personal headshot" />
+            <Image src='/images/profile.jpeg' className="profile-img" width={700} height={600} alt="Victor's personal headshot" />
             <div className="hero-text">
                 <h1>Hey, I'm Victor Serradell Pinto 👋</h1>
                 <p>
@@ -32,8 +32,8 @@ const Hero = () => {
             </div>
             <a href="https://docs.google.com/document/d/1rJDkBz-Wz_OXu_cuHwQgDIYjHV3YTc_jMvEZwEt03b4/edit?usp=sharing" className="cta-btn">Resume</a>
 
-            <br></br>
-            <hr />
+            
+            
         </div>
     )
 }

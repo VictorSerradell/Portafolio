@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material/card": "^14.0.0",
     "@nextui-org/react": "^2.2.8",
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
@@ -19,6 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-sticky": "^6.0.3",
+    "sass": "^1.69.5",
     "sharp": "^0.31.3"
   },
   "devDependencies": {
