@@ -10,12 +10,12 @@ const Projects = () => {
           projectData.map((project) => (
             <div className="project-card" key={project.id}>
               <div className="card">
-                <div className="card-back">
-                  <a href={project.gitHubLink}>Visit Project</a>
-                </div>
                 <div className={`cover ${project.class}`}>
                   <h1>{project.title}</h1>
-                  <p className="description">{project.description}</p>
+                <div className="card-back">
+                  <a href={project.gitHubLink}>Visit Project</a>
+              <p className="description">{project.description}</p>
+                </div>
                 </div>
               </div>
             </div>
