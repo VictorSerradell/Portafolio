@@ -1,6 +1,6 @@
 {
   "homepage": "https://github.com/VictorSerradell/Portafolio",
-  "name": "Victor-portfolio",
+  "name": "ortfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,11 +18,15 @@
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
     "next": "^14.0.1",
+    "node-fetch": "^3.3.2",
+    "ortfolio": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-sticky": "^6.0.3",
     "sass": "^1.69.5",
-    "sharp": "^0.31.3"
+    "sharp": "^0.31.3",
+    "Victor-portfolio": "file:",
+    "VictorPortfolio": "file:"
   },
   "devDependencies": {
     "serve": "^14.2.1",
