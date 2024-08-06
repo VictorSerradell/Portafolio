@@ -18,10 +18,6 @@ body {
   font-family: 'Playpen Sans', cursive;
   font-size: 16px;
   line-height: 1.5;
-  
-  /* Keep the inherited background full size. */
-  background-attachment: fixed; 
-  background-size: cover;
   display: grid;
   align-items: center;
   justify-content: center;
